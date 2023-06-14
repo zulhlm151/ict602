@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="About Me"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="I'M MOBILE DEVELOPER />"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:text="NAME \nMOHAMAD ZULHILMI BIN MOHAMAD NATA"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:text="MATRIC NUMBER \n2022905519"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:text="SUBJECT CODE \nICT602 MOBILE TECHNOLOGY"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:text="CLASS \n RCS2515A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/websiteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autoLink="web"
+        android:lineSpacingExtra="8dp"
+        android:linksClickable="true"
+        android:onClick="openUrl"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+
+</LinearLayout>
